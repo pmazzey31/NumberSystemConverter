@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Number System Converter</title>
+</head>
+<body>
+    <section class="bigContainer">
+        <section class="login">
+            <section class="login__container">
+                <h1>Number System Converter</h1>
+                <h4>Convert from the base of origin to any of the standard positional number systems, from binary to hexadecimal</h4>
+                <form class="login__container--form">
+                    <input class="input" id="number" type="text" placeholder="Number to Convert">
+                    <p id="error"></p>
+                    <label for="number_systems">Select the base numeral system</label>
+                    <select name="number_systems" id="number_systems" class="number_systems">
+                        <option value="binary">Binary</option>
+                        <option value="ternary">Ternary</option>
+                        <option value="quaternary">Quaternary</option>
+                        <option value="quinary">Quinary</option>
+                        <option value="senary">Senary</option>
+                        <option value="septenary">Septenary</option>
+                        <option value="octonary">Octonary</option>
+                        <option value="nonary">Nonary</option>
+                        <option value="decimal">Decimal</option>
+                        <option value="undecimal">Undecimal</option>
+                        <option value="duodecimal">Duodecimal</option>
+                        <option value="tridecimal">Tridecimal</option>
+                        <option value="tetradecimal">Tetradecimal</option>
+                        <option value="pentadecimal">Pentadecimal</option>
+                        <option value="hexadecimal">Hexadecimal</option>
+                    </select>
+                </form>
+                <button class="button" id="button">Convert</button>
+            </section>
+        </section>
+        <section class="response">
+            <section class="response__container">
+                <h1>Converted number</h1>
+                <h4>This would be your number in the following number systems</h4>
+                <section>
+                    <p>Binary:   <span id="span__binary"></span></p>
+                    <p>Ternary:   <span id="span__ternary"></span></p>
+                    <p>Quaternary:   <span id="span__quaternary"></span></p>
+                    <p>Quinary:   <span id="span__quinary"></span></p>
+                    <p>Senary:   <span id="span__senary"></span></p>
+                    <p>Septenary:   <span id="span__septenary"></span></p>
+                    <p>Octonary:   <span id="span__octonary"></span></p>
+                    <p>Nonary:   <span id="span__nonary"></span></p>
+                    <p>Decimal:   <span id="span__decimal"></span></p>
+                    <p>Undecimal:   <span id="span__undecimal"></span></p>
+                    <p>Duodecimal:   <span id="span__duodecimal"></span></p>
+                    <p>Tridecimal:   <span id="span__tridecimal"></span></p>
+                    <p>Tetradecimal:   <span id="span__tetradecimal"></span></p>
+                    <p>Pentadecimal:   <span id="span__pentadecimal"></span></p>
+                    <p>Hexadecimal:   <span id="span__hexadecimal"></span></p>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <a href="https://github.com/pmazzey31" target="_blank"><img src="./ASSETS/github.png" alt="Logo GitHub" ></a>
+        <p><a href="https://github.com/pmazzey31" target="_blank">GitHub: @pmazzey31</a></p>
+    </footer>
+
+    <script src= 'index.js'></script>
+</body>
+</html>
